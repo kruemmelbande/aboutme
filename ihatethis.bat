@@ -1,5 +1,5 @@
 git checkout gh-pages
-echo "" > /.nojekyll
+echo "" >> /.nojekyll
 git add .
 git commit -m "owo"
 git push origin gh-pages
