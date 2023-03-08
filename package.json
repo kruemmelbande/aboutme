@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "welcome",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "astro": "^2.0.18"
