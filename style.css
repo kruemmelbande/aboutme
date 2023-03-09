@@ -9,11 +9,16 @@ body{
     align-items:center;
     flex-direction:column
 }
-#sehrgae{
+#headline{
+    z-index: 2;
+    
+}
+#ottercorner{
     position:absolute;
     top:0;
     left:0;
-    size:10%
+    size:10%;
+    z-index: 1;
 }
 #socials{
     position:absolute;
