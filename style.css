@@ -15,8 +15,8 @@ body{
 }
 #ottercorner{
     position:absolute;
-    top:0;
-    left:0;
+    top:10px;
+    left:10px;
     size:10%;
     z-index: 1;
 }
