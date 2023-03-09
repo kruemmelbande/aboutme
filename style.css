@@ -3,9 +3,13 @@
     --head-two-size: clamp(0.5em, 4.5vw, 1.5em);
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
-    height: 100vh;
 
     background-image: url(images/background.png);
     background-repeat: no-repeat;
@@ -19,6 +23,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    font-family: 'Rubik', sans-serif;
 }
 
 #header {
