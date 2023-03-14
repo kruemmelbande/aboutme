@@ -44,8 +44,8 @@ body {
     font-size: var(--head-three-size);
     color: #f5c6c6;
     text-align:center;
-    text-shadow: #443b3b;
-
+    text-shadow: #000000 0px 0px 5px;
+    line-height: calc(var(--head-three-size) * 2.2);
 }
 
 #socials {
