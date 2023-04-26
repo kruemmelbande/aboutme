@@ -1,7 +1,7 @@
 :root {
     --head-one-size: clamp(1em, 5vw, 2em);
     --head-two-size: clamp(0.5em, 4.5vw, 1.5em);
-    --head-three-size: clamp(0.3em, 1.15vw, 1em);
+    --head-three-size: clamp(0.3em, 1.1vw, 1em);
 }
 
 html, body {
@@ -46,6 +46,7 @@ body {
     text-align:center;
     text-shadow: #000000 0px 0px 5px;
     line-height: calc(var(--head-three-size) * 2.2);
+    display: flex;
 }
 
 #socials {
