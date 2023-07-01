@@ -18,7 +18,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 
-    color:#beeeef;
+    color:#C0FFEE;
 
     display: flex;
     flex-direction: column;
@@ -42,15 +42,15 @@ body {
 }
 #aboutme {
     font-size: var(--head-three-size);
-    color: #f5c6c6;
+    color: #dbb999;
     text-align:center;
-    text-shadow: #000000 0px 0px 5px;
+    text-shadow: #000000 0px 0px 7px;
 
     display: flex;
 }
 
 #socials {
-    color: #dbd6da;
+    color: #f0b1db;
     margin-bottom: 2%;
 }
 
