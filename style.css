@@ -12,7 +12,7 @@ html, body {
 body {
     margin: 0;
 
-    background-image: url(images/background.png);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -42,9 +42,9 @@ body {
 }
 #aboutme {
     font-size: var(--head-three-size);
-    color: #dbb999;
+    color: rgb(255, 249, 233);
     text-align:center;
-    text-shadow: #000000 0px 0px 7px;
+    text-shadow: #2f3334 0px 0px 10px; /* I pirated "Pirate Black" from Pantone */
 
     display: flex;
 }
