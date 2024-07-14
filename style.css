@@ -44,8 +44,8 @@ body {
     font-size: var(--head-three-size);
     color: rgb(255, 249, 233);
     text-align:center;
-    text-shadow: #2f3334 0px 0px 10px; /* I pirated "Pirate Black" from Pantone */
-
+    text-shadow: #000000 0px 0px 20px; /* I pirated "Pirate Black" from Pantone */
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
 }
 
